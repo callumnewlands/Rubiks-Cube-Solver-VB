@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RubiksCubeSolver_v2_0.Block">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIAAIAAAAAIA1AAAABAwAAAAAACgEAAAAsAAIAAA=</HashCode>
+      <FileName>Blocks\Block.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.Corner">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAEAAAQAEFAAAAAAAAAAAAAAAAAAAQEACIAAA=</HashCode>
+      <FileName>Blocks\Corner.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.Edge" Collapsed="true">
+    <Position X="17" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAACAAAAAAFAAAAAAAAAAAAAAAQAAAAEAAIAAA=</HashCode>
+      <FileName>Blocks\Edge.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.Middle">
+    <Position X="18.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAFAAAAAAgAAAAAAAAAAAAAMAAIAAA=</HashCode>
+      <FileName>Blocks\Middle.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.StageNotSuccessfulException" Collapsed="true">
+    <Position X="14.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.WriteUnsuccessfulException" Collapsed="true">
+    <Position X="14.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.ReadUnsuccessfulException" Collapsed="true">
+    <Position X="14.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.SaveCancelledException" Collapsed="true">
+    <Position X="14.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.Camera" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAAAIAAAAAAAAAAAAAAAAABAABAAAAAAAA=</HashCode>
+      <FileName>Output\Camera.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.Mouse" Collapsed="true">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Output\Mouse.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.OutputInstructionList" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Output\OutputInstructionList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.RotationStore">
+    <Position X="3.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAABAAAAAAAAAABEAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Output\RotationStore.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.ShaderProgram" Collapsed="true">
+    <Position X="5.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAACAAAAAAAAAAAAAAAAAEAAIAAAAAAAAEACE=</HashCode>
+      <FileName>Output\ShaderProgram.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.OutputBlock">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Output\OutputBlock.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.Cube">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASEYgOAAgSACCCIAAADAQEAIEAAIIkFAMAAAIEIAEFE=</HashCode>
+      <FileName>Solving\Cube.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.CubeOrientation" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAAAAAAAAEAAAQAAAAAgAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solving\CubeOrientation.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.CubeInstruction" Collapsed="true">
+    <Position X="10.5" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="RubiksCubeSolver_v2_0.Instruction" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="10" Y="6.562" />
+        <Point X="10.5" Y="7.596" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solving\Instructions\CubeInstruction.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.FaceInstruction" Collapsed="true">
+    <Position X="8.75" Y="7.25" Width="1.5" />
+    <InheritanceLine Type="RubiksCubeSolver_v2_0.Instruction" FixedFromPoint="true">
+      <Path>
+        <Point X="10" Y="6.562" />
+        <Point X="9.5" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solving\Instructions\FaceInstruction.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.Instruction" Collapsed="true">
+    <Position X="9.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAEACAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solving\Instructions\Instruction.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.InstructionList" Collapsed="true">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEBAAAAAACAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solving\Instructions\InstructionList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.MiddleLayerSolver" Collapsed="true">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAIAAAAAAAAAAAEQAAAIAICAAJAAAAAAAAAAAAA=</HashCode>
+      <FileName>Solving\Layer Solvers\MiddleLayerSolver.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.TopLayerSolver">
+    <Position X="8.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>IiAQFAEAAECARwAAACAAQDAIAAwAgAAIgQAAAkBCACA=</HashCode>
+      <FileName>Solving\Layer Solvers\TopLayerSolver.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0.BottomLayerSolver" Collapsed="true">
+    <Position X="12" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAXCAAACCAAICAAQEIQoAYIAIAAAAIAIAAAQACgAA=</HashCode>
+      <FileName>Solving\Layer Solvers\BottomLayerSolver.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubiksCubeSolver_v2_0._3DOutput">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ChGQgAYCA3EwhCCAIgLUoBCCChiFgKEDCAACSAIDA4Q=</HashCode>
+      <FileName>Output\3DOutput.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="RubiksCubeSolver_v2_0.Vertex3D">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAoAgAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Output\Vertex3D.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Module Name="RubiksCubeSolver_v2_0.ArrayExtentions" Collapsed="true">
+    <Position X="14.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAIAEAAAAEwAAAQAAgAAAAAAgABA=</HashCode>
+      <FileName>ArrayMethods.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="RubiksCubeSolver_v2_0.CoordinatePairs">
+    <Position X="18.25" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="RubiksCubeSolver_v2_0.CoordinatePairs.Sticker" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CoordinatePairs.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="RubiksCubeSolver_v2_0.CoordinatePairs.CornerTriplet" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CoordinatePairs.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="RubiksCubeSolver_v2_0.CoordinatePairs.EdgePair" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CoordinatePairs.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CoordinatePairs.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="RubiksCubeSolver_v2_0.SetCubieProperties" Collapsed="true">
+    <Position X="18.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAAgAAAgAAAAgAACAAAEAAAAAAAAgAABAAACBIAg=</HashCode>
+      <FileName>Input\SetCubieProperties.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="RubiksCubeSolver_v2_0.Matrices" Collapsed="true">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="RubiksCubeSolver_v2_0.Matrices.Matrix">
+        <TypeIdentifier>
+          <NewMemberFileName>Matrices.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="RubiksCubeSolver_v2_0.Matrices.Vector" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Matrices.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="RubiksCubeSolver_v2_0.Matrices.Matrix3x3" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Matrices.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="RubiksCubeSolver_v2_0.Matrices.Matrix4x4" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Matrices.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="RubiksCubeSolver_v2_0.Matrices.Vector2x1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Matrices.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="RubiksCubeSolver_v2_0.Matrices.Vector3x1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Matrices.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="RubiksCubeSolver_v2_0.Matrices.Vector4x1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Matrices.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>UAAAAAEAAAAoAACAAAAAAAAAAEAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Matrices.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="RubiksCubeSolver_v2_0.Algorithms" Collapsed="true">
+    <Position X="14.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAQAAIAABAAAAABBAACQBAAAAAAAAAACA=</HashCode>
+      <FileName>Solving\Algorithms.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="RubiksCubeSolver_v2_0.MyPublic.PublicConstants">
+    <Position X="16.5" Y="8" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="RubiksCubeSolver_v2_0.MyPublic.PublicConstants.FaceColour" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MyPublic.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="RubiksCubeSolver_v2_0.MyPublic.PublicConstants.Axis" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MyPublic.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="RubiksCubeSolver_v2_0.MyPublic.PublicConstants.MoveFaces" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MyPublic.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="RubiksCubeSolver_v2_0.MyPublic.PublicConstants.Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MyPublic.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="RubiksCubeSolver_v2_0.MyPublic.PublicConstants.Layer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>MyPublic.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAkIAEAAAQAAAAAAAAAAAQAAACAAAAACAAAAAAAA=</HashCode>
+      <FileName>MyPublic.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="RubiksCubeSolver_v2_0.MyPublic.PublicFunctions" Collapsed="true">
+    <Position X="14.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAQAAgAAyAAAAAAEAACA=</HashCode>
+      <FileName>MyPublic.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

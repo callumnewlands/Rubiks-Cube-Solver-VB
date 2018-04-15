@@ -1,0 +1,57 @@
+//
+
+#if __VERSION__ == 330
+
+	// Input variables from the vertex shader (same name and type)
+	in vec4 vertexColor; 
+	in vec3 pos;
+
+	uniform vec4 lightColor;
+	uniform float ambientStrength;
+	uniform float pad;
+	uniform mat4 colourMat;
+
+	out vec4 color;
+
+	void main()
+	{
+		
+		vec3 worldPosition = vec3(colourMat * vec4(pos, 1.0f));
+				
+		if (((worldPosition.x <= -1.499999f - pad) || (worldPosition.x >= 1.499999f + pad)) ||
+			((worldPosition.y <= -1.499999f - pad) || (worldPosition.y >= 1.499999f + pad)) ||
+			((worldPosition.z <= -1.499999f - pad) || (worldPosition.z >= 1.499999f + pad))){
+
+			vec3 ambient = ambientStrength * lightColor.xyz;
+			vec3 result = ambient * vertexColor.xyz;		
+			color = vec4(result, 1.0f);
+		}
+	} 
+
+#endif
+#if __VERSION__ == 120
+
+	// Input variables from the vertex shader (same name and type)
+	varying vec4 vertexColor;
+	varying vec3 pos;
+
+	uniform vec4 lightColor;
+	uniform float pad;
+	uniform float ambientStrength;
+	uniform mat4 colourMat;
+  
+	void main()
+	{
+		vec3 worldPosition = vec3(colourMat * vec4(pos, 1.0f));
+							
+		if (((worldPosition.x <= -1.499999f - pad) || (worldPosition.x >= 1.499999f + pad)) ||
+			((worldPosition.y <= -1.499999f - pad) || (worldPosition.y >= 1.499999f + pad)) ||
+			((worldPosition.z <= -1.499999f - pad) || (worldPosition.z >=  1.499999f + pad))){
+			
+			vec3 ambient = ambientStrength * lightColor.xyz;
+			vec3 result = ambient * vertexColor.xyz ;
+			gl_FragColor = vec4(result, 1.0f);
+		}
+	} 
+
+#endif
