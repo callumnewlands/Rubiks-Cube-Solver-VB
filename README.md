@@ -7,7 +7,7 @@ A 3D, OpenGL-based interactive solver and instruction visualiser for the Rubik's
 [![Demo video screenshot](https://github.com/callumnewlands/Rubiks-Cube-Solver-VB/blob/master/video-screenshot.png)](https://youtu.be/S5cC6rdJwaM)
 
 ## Documentation:
-The project report can be found in 
+The project report can be found in [files/Documentation/Rubik's Cube Solver Documentation.docx](https://github.com/callumnewlands/Rubiks-Cube-Solver-VB/blob/master/files/Documentation/Rubik's%20Cube%20Solver%20Documentation.docx)
 
 ## Prerequisites
 
